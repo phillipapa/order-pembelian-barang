@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    streams:
+      application-id: analytics
+      bootstrap-servers: localhost:9092
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/analytics
+    elasticsearch:
+      uris: http://localhost:9200
